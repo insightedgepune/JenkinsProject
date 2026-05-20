@@ -57,4 +57,4 @@ def get_feedback():
 
 
 if __name__ == "__main__":
-    app.run(host="192.168.1.6", port=5000)
+    app.run(host="192.168.31.221, port=5000)
