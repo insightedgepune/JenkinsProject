@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Jenkins Docker Demo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #111;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            color: #00d4ff;
+        }
+
+        .container {
+            margin-top: 80px;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.15);
+            width: 60%;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 42px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .btn {
+            background-color: #00d4ff;
+            color: #111;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: #1e3c72;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #111;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/status">Status</a>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h1>Welcome to Flask Web App</h1>
+            <p>Hello, Flask! Your web app is running successfully.</p>
+
+            <a href="/about" class="btn">About Application</a>
+            <a href="/status" class="btn">Check Status</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        Flask + Jenkins + Docker CI/CD Demo
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Flask App</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #111;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .container {
+            margin-top: 70px;
+        }
+
+        .box {
+            background-color: white;
+            width: 60%;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #1e3c72;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            background-color: #1e3c72;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/status">Status</a>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h1>About This Application</h1>
+
+            <p>
+                This is a simple Flask web application created for students.
+                It helps them understand how Jenkins builds a Docker image
+                and deploys a container automatically.
+            </p>
+
+            <p>
+                This demo is useful for learning Flask, Docker, Jenkins Pipeline,
+                CI/CD automation, and container deployment.
+            </p>
+
+            <a href="/" class="btn">Back to Home</a>
+        </div>
+    </div>
+
+</body>
+</html>
